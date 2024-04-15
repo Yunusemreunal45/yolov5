@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['-circle-round-']
+
+roboflow:
+  workspace: yolov5-df6bj
+  project: circle-okab4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov5-df6bj/circle-okab4/dataset/1
